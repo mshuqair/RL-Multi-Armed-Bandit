@@ -2,6 +2,7 @@
 # Multi-Armed Bandit
 - Implementation of Multi-Armed Bandits uing epsilon-greedy algorithm in Python.
 - This implementation is a modified version of: https://github.com/SahanaRamnath/MultiArmedBandit_RL
+- This implementation employs the algorithm for Test bed and Ads Optimization Dataset
 - The rest of the documentation is coming soon.
 
 ## Introduction
