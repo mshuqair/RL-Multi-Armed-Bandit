@@ -55,14 +55,14 @@ for epsilon, color in zip(epsilons, colors):
     ax_1.plot(range(0, n_steps + 1), R_eps, color=color, linewidth=2, label='epsilon=' + str(epsilon))
     ax_2.plot(range(2, n_steps + 1), R_eps_opt, color=color, linewidth=2, label='epsilon=' + str(epsilon))
 
-ax_1.title.set_text('Average Reward vs Steps for 10-Ads Dataset')
+ax_1.set_title('Average Reward vs Steps for 10-Ads Dataset')
 ax_1.set_ylabel('Average Reward')
 ax_1.set_xlabel('Steps')
 ax_1.set_ylim(0, 2)
 ax_1.legend(loc='best')
 plt.savefig('figures/Average Reward vs Steps for 10-Ads Dataset.png')
 
-ax_2.title.set_text('Optimal Action vs Steps for 10-Ads Dataset')
+ax_2.set_title('Optimal Action vs Steps for 10-Ads Dataset')
 ax_2.set_ylabel(' % Optimal Action')
 ax_2.set_xlabel('Steps')
 ax_2.set_ylim(0, 100)
