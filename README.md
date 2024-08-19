@@ -1,7 +1,8 @@
 
 # Multi-Armed Bandit
-Implementation of Multi-Armed Bandits uing epsilon-greedy algorithm in Python.
-The rest of the documentation is coming soon.
+- Implementation of Multi-Armed Bandits uing epsilon-greedy algorithm in Python.
+- This implementation is a modified version of: https://github.com/SahanaRamnath/MultiArmedBandit_RL
+- The rest of the documentation is coming soon.
 
 ## Introduction
 Multi-Armed Bandit (MAB) is a Machine Learning framework in which an agent has to select actions (also called arms) in order to maximize its cumulative reward in the long term. In each round, the agent receives some information about the current state (context), then it chooses an action based on this information and the experience gathered in previous rounds. At the end of each round, the agent receives the reward associated with the chosen action.
