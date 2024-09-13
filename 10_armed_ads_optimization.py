@@ -60,13 +60,11 @@ ax_1.set_ylabel('Average Reward')
 ax_1.set_xlabel('Steps')
 ax_1.set_ylim(0, 2)
 ax_1.legend(loc='best')
-plt.savefig('figures/Average Reward vs Steps for 10-Ads Dataset.png')
 
 ax_2.set_title('Optimal Action vs Steps for 10-Ads Dataset')
 ax_2.set_ylabel(' % Optimal Action')
 ax_2.set_xlabel('Steps')
 ax_2.set_ylim(0, 100)
 ax_2.legend(loc='best')
-plt.savefig('figures/Optimal Action vs Steps for 10-Ads Dataset.png')
 
 plt.show()

@@ -15,6 +15,8 @@ opt_arms_true = np.argmax(q_true, axis=1)  # the true optimal arms in each bandi
 epsilons = [0, 0.01, 0.1]  # epsilon values
 colors = sns.color_palette(palette='Set2', n_colors=3)  # colors for plotting each epsilon
 
+
+
 sns.set_theme(style='darkgrid')
 fig_1, ax_1 = plt.subplots(nrows=1, ncols=1, figsize=(6.5, 3.5), layout='constrained')
 fig_2, ax_2 = plt.subplots(nrows=1, ncols=1, figsize=(6.5, 3.5), layout='constrained')
@@ -56,13 +58,11 @@ ax_1.set_ylabel('Average Reward')
 ax_1.set_xlabel('Steps')
 ax_1.set_ylim(0, 2)
 ax_1.legend(loc='best')
-plt.savefig('figures/Average Reward Vs Steps for 10-Armed Testbed.png')
 
 ax_2.set_title('Optimal Action Vs Steps for 10-Armed Testbed')
 ax_2.set_ylabel(' % Optimal Action')
 ax_2.set_xlabel('Steps')
 ax_2.set_ylim(0, 100)
 ax_2.legend(loc='best')
-plt.savefig('figures/Optimal Action Vs Steps for 10-Armed Testbed.png')
 
 plt.show()
